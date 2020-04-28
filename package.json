@@ -1,0 +1,26 @@
+{
+  "name": "randombyte.cool",
+  "version": "1.0.0",
+  "description": "randombyte.cool",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RandomByte/randombyte.cool.git"
+  },
+  "keywords": [],
+  "author": "Merlin Beutlberger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RandomByte/randombyte.cool/issues"
+  },
+  "homepage": "https://github.com/RandomByte/randombyte.cool#readme",
+  "dependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0",
+    "express": "^4.17.1"
+  }
+}

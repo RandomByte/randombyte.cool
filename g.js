@@ -9,7 +9,7 @@ router.use(function(req, res, next) {
 	if (match && match.length) {
 		const targetUrl = `https://github.com/RandomByte${match[0]}`;
 		console.log(`Redirecting to ${targetUrl}...`);
-		res.redirect(targetUrl, 308);
+		res.redirect(308, targetUrl);
 	} else {
 		next();
 	}
